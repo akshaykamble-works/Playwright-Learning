@@ -37,3 +37,11 @@ console.log("Name value is:",name); // Output: Akshay
 // redeclaring the variable using var
 var name = 'John';
 console.log("Name value is redeclared using var:",name); // Output: John
+
+
+// Declaring a varrible in same name using let will result in an error
+let company = 'Google';
+console.log("Company value is:",company); // Output: Google
+
+//let company = 'Microsoft'; //  throw run time error as Uncaught SyntaxError: Identifier 'company' has already been declared
+console.log("Company value cannot be redeclared using let:",company); // Output: Google
