@@ -1,4 +1,45 @@
 /*
+
+Data Types
+1.1 What Are Data Types?
+A data type tells JavaScript what kind of value a variable holds — is it a number, a piece of text,
+true/false, or a complex object?
+Think of data types like containers in real life:
+• A bottle holds liquid (Number)
+• A book holds text (String)
+• A light switch is either ON or OFF (Boolean)
+• An empty box is undefined or null
+Every value in JavaScript has a data type.
+
+JavaScript Data Types
+├── Primitive Types (7 types) — simple, single values
+│ ├── Number
+│ ├── String
+│ ├── Boolean
+│ ├── Undefined
+│ ├── Null
+│ ├── BigInt
+│ └── Symbol
+│
+└── Non-Primitive Types — collections / complex
+├── Object
+├── Array
+└── Function
+Simple rule:
+• Primitive → stores one single value (a number, a word, true/false)
+• Non-Primitive → stores a group of values (many items together)
+
+3. Primitive Data Types
+All primitive types are immutable — once a value is created in memory, it cannot be changed.
+When you reassign a variable, a new value is created.
+3.1 Number
+The Number type represents all numeric values — whole numbers, decimals, positive, negative.
+⚠ JavaScript has only ONE number type for everything. There is no separate int or float.
+let age = 25;
+let price = 19.99;
+let temperature = -5;
+let bigNum = 1000000;
+
 Datatype in javascript are used to store and manipulate data. 
 There are several types of data in javascript, including:
 
