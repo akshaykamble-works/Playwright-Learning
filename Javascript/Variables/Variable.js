@@ -45,3 +45,33 @@ console.log("Company value is:",company); // Output: Google
 
 //let company = 'Microsoft'; //  throw run time error as Uncaught SyntaxError: Identifier 'company' has already been declared
 console.log("Company value cannot be redeclared using let:",company); // Output: Google
+
+
+/*
+ Features:                     Var        Let         Const
+ can change value              Yes        Yes          No
+ can declare again             Yes        No           No
+ Mordern JavaScript            No         Yes          Yes
+ When use                     Never,   Value changes,  Value stays fixed
+
+
+
+What Are Variables?
+A variable is a named container that stores a value
+You give it a name, and store something inside it (a number, text, true/false, etc.)
+You can use the name later anywhere in your code to get the stored value
+Variables make your code flexible and reusable
+Types of Variables
+1.let
+2.var
+3.const
+How to create a variable
+variables varName = varValue;
+*/
+/*
+let age = 30
+let - Keyword to create a variable
+age - name of the variable
+30 - Value stored inside it
+
+*/
