@@ -32,3 +32,11 @@ console.log("Fruits array after removing first element is:",fruits); // Output: 
 console.log("Length of fruits array is:",fruits.length); // Output: 3
 console.log('Data type of fruits is ',typeof fruits); // Output: object
 
+
+function printFruits() {
+    console.log("Fruits in the array are:");
+    for (let i = 0; i < fruits.length; i++) {
+        console.log(fruits[i]);
+    }
+}
+printFruits(); // Output: Fruits in the array are: Apple, Blueberry, Cherry
