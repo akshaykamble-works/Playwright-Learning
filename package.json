@@ -1,0 +1,22 @@
+{
+  "name": "playwright-learning",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"https://komarev.com/ghpvc/?username=akshaykamble-works&label=Profile%20views&color=0e75b6&style=for-the-badge\" /> </p> <!-- Animated Banner --> <p align=\"center\"> <img src=\"https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Playwright+Automation+Framework;JavaScript+UI+Automation;CI/CD+Integration+with+GitHub+Actions;Built+by+Akshay+Kamble\" /> </p>",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaykamble-works/Playwright-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaykamble-works/Playwright-Learning/issues"
+  },
+  "homepage": "https://github.com/akshaykamble-works/Playwright-Learning#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
