@@ -1,5 +1,10 @@
 /*
 Even Odd Number in Array
+example:
+input: [10, 15, 20, 25, 30]
+output:
+Total Even Numbers: 3
+Total Odd Numbers: 2
 
 */
 function countEvenOdd(arr) {
