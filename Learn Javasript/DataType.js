@@ -41,3 +41,10 @@ let d= "10";
 console.log(c+d);// concatenation
 
 
+console.log('== and === operator');
+let x=5;
+let y='5';
+console.log(x==y); // true (loose equality, only checks value)
+console.log(x===y); // false (strict equality, checks value and type)
+
+
