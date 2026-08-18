@@ -37,3 +37,29 @@ test('Handling Dropdown', async ({ page }) => {
 
  await page.waitForTimeout(2000);
 });
+
+test.only('Handling Dropdown 2', async ({ page }) => {
+
+    await page.goto("https://demoqa.com/select-menu");
+
+    const mainDrop = page.locator("#oldSelectMenu");
+
+    const options = page.locator("#oldSelectMenu option");
+
+    const dropSize = await options.count();
+
+    let status = false;
+
+    // Check whether Red is available
+    for (let i = 0; i < dropSize; i++) {
+
+        const optionName = await options.nth(i).textContent();
+         console.log(`Option ${i + 1}: ${optionName?.trim()}`);
+
+        
+    }
+
+    console.log('List of options are available :: ', dropSize);
+     // Select Green
+    //await mainDrop.selectOption({ label: 'Green' });
+});
